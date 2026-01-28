@@ -10,4 +10,8 @@ export class HomePage {
 
   constructor() {}
 
+  gatilho():void{
+    console.log("ola mundo");
+  }
+
 }
