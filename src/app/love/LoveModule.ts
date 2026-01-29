@@ -3,12 +3,13 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { LoveRoutingModule } from './love-routing-module';
+import { LoveComponent } from './love.component';
 
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [LoveComponent],
   imports: [
     CommonModule,
     FormsModule,
